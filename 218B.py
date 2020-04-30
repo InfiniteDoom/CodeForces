@@ -1,7 +1,5 @@
 import sys
-n, m = sys.stdin.readline().split()
-n = int(n)
-m = int(m)
+n, m = [int(elem) for elem in sys.stdin.readline().split()]
 aDesc = [int(elem) for elem in sys.stdin.readline().split()]
 i = 0
 j = 0

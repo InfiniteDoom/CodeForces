@@ -1,7 +1,5 @@
 import sys
 a, b = [int(elem) for elem in sys.stdin.readline().split()]
-a = int(a)
-b = int(b)
 count = 0
 
 while b >= a:
